@@ -1,0 +1,264 @@
+.accueil {
+    width: 100%;
+  }
+  
+  /* Section Hero */
+  .hero-section {
+   background-image: url(vtt-1024x683.jpg);
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 2rem;
+  }
+  
+  .hero-section h1 {
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .hero-section p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  }
+  
+  .cta-button {
+    background-color: white;
+    color: #ff4d4d;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+    transition: all 0.3s;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .cta-button:hover {
+    background-color: #f5f5f5;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Section VTT en vedette */
+  .featured-section {
+    padding: 4rem 2rem;
+    text-align: center;
+  }
+  
+  .featured-section h2 {
+    font-size: 2.2rem;
+    color: #333;
+    margin-bottom: 3rem;
+    position: relative;
+  }
+  
+  .featured-section h2::after {
+    content: '';
+    position: absolute;
+    bottom: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 3px;
+    background-color: #ff4d4d;
+    border-radius: 3px;
+  }
+  
+  .featured-bikes {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .bike-card {
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+  }
+  
+  .bike-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .bike-image {
+    height: 200px;
+    background-color: #f2f2f2;
+  }
+  
+  .bike-card h3 {
+    padding: 1rem 1rem 0.5rem;
+    color: #333;
+    margin: 0;
+  }
+  
+  .bike-card .price {
+    color: #ff4d4d;
+    font-weight: bold;
+    padding: 0 1rem;
+    margin: 0 0 0.5rem;
+  }
+  
+  .bike-card p {
+    padding: 0 1rem;
+    color: #666;
+    margin: 0 0 1.5rem;
+  }
+  
+  .reserve-btn {
+    display: block;
+    padding: 0.8rem;
+    background-color: #ff4d4d;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    transition: background-color 0.3s;
+  }
+  
+  .reserve-btn:hover {
+    background-color: #ff3333;
+  }
+  
+  /* Section Services */
+  .services-section {
+    padding: 4rem 2rem;
+    background-color: #f5f5f5;
+    text-align: center;
+  }
+  
+  .services-section h2 {
+    font-size: 2.2rem;
+    color: #333;
+    margin-bottom: 3rem;
+    position: relative;
+  }
+  
+  .services-section h2::after {
+    content: '';
+    position: absolute;
+    bottom: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 3px;
+    background-color: #ff4d4d;
+    border-radius: 3px;
+  }
+  
+  .services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .service-item {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  .service-icon {
+    width: 70px;
+    height: 70px;
+    background-color: #ff4d4d;
+    border-radius: 50%;
+    margin: 0 auto 1.5rem;
+  }
+  
+  .service-item h3 {
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  .service-item p {
+    color: #666;
+  }
+  
+  /* Section Témoignages */
+  .testimonials-section {
+    padding: 4rem 2rem;
+    text-align: center;
+  }
+  
+  .testimonials-section h2 {
+    font-size: 2.2rem;
+    color: #333;
+    margin-bottom: 3rem;
+    position: relative;
+  }
+  
+  .testimonials-section h2::after {
+    content: '';
+    position: absolute;
+    bottom: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 3px;
+    background-color: #ff4d4d;
+    border-radius: 3px;
+  }
+  
+  .testimonials {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .testimonial {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  .user-avatar {
+    width: 80px;
+    height: 80px;
+    background-color: #f2f2f2;
+    border-radius: 50%;
+    margin: 0 auto 1.5rem;
+  }
+  
+  .testimonial .quote {
+    font-style: italic;
+    color: #666;
+    margin-bottom: 1rem;
+  }
+  
+  .testimonial .author {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Media Queries */
+  @media (max-width: 768px) {
+    .hero-section h1 {
+      font-size: 2.5rem;
+    }
+    
+    .hero-section p {
+      font-size: 1.2rem;
+    }
+    
+    .featured-section, 
+    .services-section, 
+    .testimonials-section {
+      padding: 3rem 1rem;
+    }
+  }

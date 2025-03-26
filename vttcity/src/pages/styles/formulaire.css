@@ -1,0 +1,50 @@
+body {  
+    background: linear-gradient(90deg, rgb(186, 228, 33),rgb(31, 207, 21));
+}
+
+
+
+
+.inscription-container {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 18px;
+    background: #6a16ba;
+    box-shadow: 0 0 10px #0002;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+  }
+  
+  .submit-btn {
+    width: 90%;
+    padding: 9px;
+    background: #4a90e2;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .success-message {
+    padding: 10px;
+    background: #d4edda;
+    color: #155724;
+  }
+  
+  .error-message {
+    padding: 10px;
+    background: #f8d7da;
+    color: #721c24;
+  }
