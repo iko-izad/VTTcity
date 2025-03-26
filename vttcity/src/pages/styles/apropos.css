@@ -1,0 +1,115 @@
+.apropos {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  
+  .apropos-header {
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+  
+  .apropos-header h1 {
+    color: #333;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .apropos-header p {
+    color: #666;
+    font-size: 1.2rem;
+  }
+  
+  .apropos-content {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+  }
+  
+  .apropos-section {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  .apropos-section h2 {
+    color: #ff4d4d;
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+  }
+  
+  .apropos-section p {
+    color: #666;
+    line-height: 1.6;
+  }
+  
+  .apropos-section ul {
+    color: #666;
+    line-height: 1.6;
+    padding-left: 1.5rem;
+  }
+  
+  .apropos-section li {
+    margin-bottom: 0.8rem;
+  }
+  
+  .team-section {
+    text-align: center;
+  }
+  
+  .team-section h2 {
+    color: #ff4d4d;
+    margin-bottom: 2rem;
+    font-size: 1.8rem;
+  }
+  
+  .team-members {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+  }
+  
+  .team-member {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+  }
+  
+  .team-member:hover {
+    transform: translateY(-5px);
+  }
+  
+  .member-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #f1f1f1;
+    margin: 0 auto 1.5rem;
+  }
+  
+  .team-member h3 {
+    color: #333;
+    margin-bottom: 0.5rem;
+  }
+  
+  .team-member p {
+    color: #ff4d4d;
+    font-weight: 500;
+  }
+  
+  @media (max-width: 768px) {
+    .apropos {
+      padding: 1rem;
+    }
+    
+    .apropos-header h1 {
+      font-size: 2rem;
+    }
+    
+    .team-members {
+      grid-template-columns: 1fr;
+    }
+  }
