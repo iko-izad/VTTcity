@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import  './styles/formulaire.css';
 
 const Inscription = () => {
   const [formData, setFormData] = useState({
