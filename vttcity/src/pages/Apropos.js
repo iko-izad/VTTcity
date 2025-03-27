@@ -1,5 +1,10 @@
 import React from 'react';
 import './styles/apropos.css';
+import Image from './images/images.jpg'; 
+import Images from './images/belle-femme.jpeg'; 
+import ImAgesR from './images/imAgesR.jpg'; 
+
+
 
 const Apropos = () => {
   return (
@@ -42,17 +47,17 @@ const Apropos = () => {
           <h2>Notre Équipe</h2>
           <div className="team-members">
             <div className="team-member">
-              <div className="member-photo"></div>
+              <div className="member-photo"> <img src={ImAgesR} alt="Thomas Dupont" /> </div>
               <h3>Thomas Dupont</h3>
               <p>Fondateur & Directeur</p>
             </div>
             <div className="team-member">
-              <div className="member-photo"></div>
+              <div className="member-photo"> <img src={Images} alt="Marie Leroy" /> </div>
               <h3>Marie Leroy</h3>
               <p>Responsable Technique</p>
             </div>
             <div className="team-member">
-              <div className="member-photo"></div>
+              <div className="member-photo"> <img src={Image} alt="Lucas Martin" /></div>
               <h3>Lucas Martin</h3>
               <p>Responsable Client</p>
             </div>

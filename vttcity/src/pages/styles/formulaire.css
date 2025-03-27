@@ -1,50 +1,137 @@
-body {  
-    background: linear-gradient(90deg, rgb(186, 228, 33),rgb(31, 207, 21));
-}
-
-
-
-
 .inscription-container {
-    max-width: 400px;
-    margin: 20px auto;
-    padding: 18px;
-    background: #6a16ba;
-    box-shadow: 0 0 10px #0002;
+    max-width: 500px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .inscription-container h2 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+  }
+  
+  .inscription-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
   }
   
   .form-group {
-    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
   }
   
   .form-group label {
-    display: block;
-    margin-bottom: 5px;
+    color: #555;
+    font-weight: 600;
+    font-size: 0.9rem;
   }
   
   .form-group input {
-    width: 100%;
-    padding: 8px;
-    border: 1px solid #ddd;
+    padding: 12px;
+    border: 2px solid #e1e1e1;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+  }
+  
+  .form-group input:focus {
+    border-color: #4a90e2;
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(74, 144, 226, 0.1);
+  }
+  
+  .form-group input::placeholder {
+    color: #aaa;
   }
   
   .submit-btn {
-    width: 90%;
-    padding: 9px;
-    background: #4a90e2;
+    margin-top: 1rem;
+    padding: 12px;
+    background-color: #4a90e2;
     color: white;
     border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
     cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-btn:hover {
+    background-color: #357abd;
+  }
+  
+  .submit-btn:active {
+    transform: scale(0.98);
   }
   
   .success-message {
-    padding: 10px;
-    background: #d4edda;
+    background-color: #d4edda;
     color: #155724;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    text-align: center;
   }
   
   .error-message {
-    padding: 10px;
-    background: #f8d7da;
+    background-color: #f8d7da;
     color: #721c24;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  
+  /* Animation pour les messages */
+  .success-message, .error-message {
+    animation: slideIn 0.3s ease;
+  }
+  
+  @keyframes slideIn {
+    from {
+      transform: translateY(-20px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  /* Media queries pour la responsivité */
+  @media (max-width: 768px) {
+    .inscription-container {
+      margin: 1rem;
+      padding: 1.5rem;
+    }
+  
+    .inscription-container h2 {
+      font-size: 1.5rem;
+    }
+  
+    .form-group input {
+      padding: 10px;
+    }
+  }
+  
+  /* Style pour les champs requis */
+  .form-group input:required {
+    border-left: 3px solid #4a90e2;
+  }
+  
+  /* Style pour les champs invalides */
+  .form-group input:invalid {
+    border-color: #dc3545;
+  }
+  
+  /* Effet hover sur les inputs */
+  .form-group input:hover {
+    border-color: #4a90e2;
   }

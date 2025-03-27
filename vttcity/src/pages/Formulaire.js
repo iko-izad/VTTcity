@@ -47,7 +47,7 @@ const Inscription = () => {
 
   return (
     <div className="inscription-container">
-      <h2>Se connecter</h2>
+      <h2>S'inscrire</h2>
       {status.message && (
         <div className={`${status.type}-message`}>{status.message}</div>
       )}

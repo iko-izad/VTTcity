@@ -69,10 +69,10 @@ const Navbar = () => {
         </li>
         <li>
           <Link 
-            to="/connexion" 
+            to="/S'inscrire" 
             className="connexion-btn"
           >
-            Connexion
+            S'inscrire
           </Link>
         </li>
       </ul>

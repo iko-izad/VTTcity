@@ -1,5 +1,5 @@
 .navbar {
-    background-color: #c5e717;
+  background: linear-gradient(90deg, rgb(43, 184, 151),rgb(94, 181, 12));
     box-shadow: 0 2px 10px rgba(0,0,0,0.1);
     padding: 1rem 2rem;
     display: flex;
@@ -13,7 +13,7 @@
   .nav-brand a {
     font-size: 1.8rem;
     font-weight: bold;
-    color: #ff4d4d;
+    color: #128076;
     text-decoration: none;
     display: flex;
     align-items: center;
@@ -61,20 +61,20 @@
     left: 0;
     width: 100%;
     height: 3px;
-    background-color: #ff4d4d;
+    background-color: #22c420;
     border-radius: 3px;
   }
   
   .connexion-btn {
-    background-color: #ff4d4d;
-    color: white !important;
+    background-color: #88ff4d;
+    color: rgb(207, 56, 157) !important;
     padding: 0.6rem 1.2rem !important;
     border-radius: 5px;
     transition: all 0.3s;
   }
   
   .connexion-btn:hover {
-    background-color: #ff3333;
+    background-color: #b3a61d;
     transform: translateY(-2px);
     box-shadow: 0 4px 8px rgba(255, 77, 77, 0.2);
   }
@@ -109,7 +109,7 @@
       right: 0;
       bottom: 0;
       flex-direction: column;
-      background-color: rgb(192, 54, 54);
+      background-color: rgb(128, 211, 40);
       padding: 2rem;
       gap: 1.5rem;
       transform: translateX(-100%);

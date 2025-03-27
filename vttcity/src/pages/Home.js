@@ -17,7 +17,7 @@ const Home = () => {
         <h2>Nos VTT populaires</h2>
         <div className="featured-bikes">
           <div className="bike-card">
-            <div className="bike-image"></div>
+            <div className="bike-image">  </div>
             <h3>VTT All Mountain Pro</h3>
             <p className="price">45€/jour</p>
             <p>VTT polyvalent pour tous les terrains</p>

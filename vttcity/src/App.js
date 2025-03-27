@@ -13,11 +13,11 @@ function App() {
       <div>
         <Navbar/>
         <Home/>
+        <Apropos/>
         <Formulaire />
-        <Apropos />
       </div>
     </Router>
   );
-}
+};
 
 export default App;
