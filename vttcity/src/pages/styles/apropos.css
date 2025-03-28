@@ -6,20 +6,29 @@
 }
 
 .apropos-header {
+  background-image: url(OIP.jpg);
+  background-size: cover;  /* L'image couvre toute la section */
+  background-position: center;  /* Centre l'image */
+  background-repeat: no-repeat;  /* Évite la répétition de l'image */
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: center;
-  margin-bottom: 40px;
-  background-color: #f5f5f5;
-  padding: 30px;
-  border-radius: 8px;
-}
+  color: white;
+  padding: 1rem;
+  width: 98%;
+};
+
 
 .apropos-header h1 {
-  color: #2c3e50;
+  color: #26292c;
   margin-bottom: 10px;
 }
 
 .apropos-header p {
-  color: #7f8c8d;
+  color: #191a1b;
   font-size: 18px;
 }
 

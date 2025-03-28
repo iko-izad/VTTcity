@@ -8,7 +8,7 @@ const Home = () => {
       <div className="hero-section">
         <h1>Bienvenue chez VTT City</h1>
         <p>Le meilleur choix pour vos aventures en VTT</p>
-        <Link to="/catalogue" className="cta-button">
+        <Link to="/aprops" className="cta-button">
           Découvrir nos VTT
         </Link>
       </div>
